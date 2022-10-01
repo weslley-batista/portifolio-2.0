@@ -27,6 +27,9 @@ body {
 .displayBlock {
     display: block;
 }
+.textCenter {
+    text-align: center;
+}
 /* header */
 .navbar {
     width: 100vw;
@@ -40,6 +43,7 @@ body {
     position: fixed;
     
     background-color: #E8EBF7;
+    z-index: 10;
 }
 
 .nav {
@@ -119,6 +123,7 @@ body {
     right: -20px;
     width: 150px;
     height: 150px;
+    z-index: 11;
 }
 
 .glassPossiton2 {
@@ -126,13 +131,15 @@ body {
     right: -50px;
     width: 150px;
     height: 150px;
-} 
+    z-index: 11;
+}
 
 .glassPossiton3 {
     bottom: 50px;
     left: -50px;
     width: 180px;
     height: 180px;
+    z-index: 11;
 }
 .glassAppearanceBlack {
     background: rgba(43, 40, 43, 0.49);
