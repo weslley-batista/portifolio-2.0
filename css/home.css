@@ -24,6 +24,9 @@ body {
 .shadowBox:hover {
     box-shadow: 0.1em 0.1em 0.9em #0f0a0a;
 }
+.displayBlock {
+    display: block;
+}
 /* header */
 .navbar {
     width: 100vw;
@@ -57,6 +60,10 @@ body {
 
 .socialLogo {
     width: 70%;
+}
+
+.socialLogo:hover {
+    filter: drop-shadow(5px 5px 3px rgba(226, 212, 191, 1));
 }
 
 .nav img:hover {

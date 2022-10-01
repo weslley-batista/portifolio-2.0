@@ -1,0 +1,101 @@
+.sectionGraduation {
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sectionGraduation  h2{
+    margin-left: 23px;
+}
+
+.containerItemsGraduation {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemGraduation {
+    width: 300px;
+    height: 220px;
+    background-color: rgba(226, 212, 191, 0.3);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid rgba(226, 212, 191, 1);
+    box-shadow: 0.1em 0.1em 0.9em rgba(226, 212, 191, 0.1);
+    border-radius: 20px;
+}
+
+.itemGraduation:hover {
+    position: relative;
+    right: 2px;
+    bottom: 2px;
+    box-shadow: 0.3em 0.2em 0.9em rgba(226, 212, 191, 1);
+}
+
+.itemGraduation p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.imageGraduation {
+    width: 100px;
+    height: 100px;
+}
+
+/* background tecnologias */
+.backgraoundHtml {
+    background-color: rgba(239, 137, 133, 0.9); 
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.backgraoundCss {
+    background-color: rgba(119, 137, 184, 0.9); 
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.backgraoundJavascript {
+    background-color: rgba(230, 214, 125, 0.9); 
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.backgraoundReact {
+    background-color: rgba(61, 127, 215, 0.9); 
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.backgraoundAngular {
+    background-color: rgba(210, 86, 85, 0.9);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.backgraoundJava {
+    background-color: rgba(241, 255, 255, 0.9);
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.backgraoundCsharp {
+    background-color: rgba(210, 153, 248, 0.9); 
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.backgraoundDatabase {
+    background-color: rgba(66, 226, 192, 0.9); 
+    border-radius: 3px;
+    padding: 2px;
+}
