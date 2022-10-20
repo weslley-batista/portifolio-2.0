@@ -4,7 +4,10 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+    padding-top: 5rem;
 }
 
 .sectionGraduation  h2{
@@ -56,48 +59,62 @@
     background-color: rgba(239, 137, 133, 0.9); 
     border-radius: 3px;
     padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 
 .backgraoundCss {
     background-color: rgba(119, 137, 184, 0.9); 
     border-radius: 3px;
     padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 
 .backgraoundJavascript {
     background-color: rgba(230, 214, 125, 0.9); 
     border-radius: 3px;
-    padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 
 .backgraoundReact {
     background-color: rgba(61, 127, 215, 0.9); 
     border-radius: 3px;
     padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 
 .backgraoundAngular {
     background-color: rgba(210, 86, 85, 0.9);
     border-radius: 3px;
     padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 
 .backgraoundJava {
     background-color: rgba(241, 255, 255, 0.9);
     border-radius: 3px;
     padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 
 .backgraoundCsharp {
     background-color: rgba(210, 153, 248, 0.9); 
     border-radius: 3px;
     padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 
 .backgraoundDatabase {
     background-color: rgba(66, 226, 192, 0.9); 
     border-radius: 3px;
     padding: 2px;
+    padding: 0px 5px 0 5px;
+}
+
+.backgraoundEntra {
+    background-color: rgba(200, 162, 235, 0.9); 
+    border-radius: 3px;
+    padding: 2px;
+    padding: 0px 5px 0 5px;
 }
 /* university */
 
@@ -111,7 +128,7 @@
     align-items: center;
 
     padding-left: 23px;
-
+    margin-bottom: 2rem;
     background-color: rgba(226, 212, 191, 0.3);
 
 }
