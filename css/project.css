@@ -1,0 +1,50 @@
+.sectionProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.containerProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.boxProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 20rem;
+    height: 20rem;
+
+    background: rgba(226, 212, 191, 0.2);
+    border: 2px solid rgba(226, 212, 191, 0.6);
+}
+
+.imageProject {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.dataProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    gap: 1rem;
+}
+
+.link {
+    text-decoration: none;
+    color: rgba(43, 40, 43, 1);
+}
